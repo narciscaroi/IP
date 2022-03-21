@@ -1,0 +1,95 @@
+
+.menu .left {
+    position: absolute;
+	left: 650px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 230px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+.menu .right {
+    position: absolute;
+	left: 950px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 215px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+.menu .account {
+    position: absolute;
+	left: 800px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 200px;
+	font-size: 60px;
+	top: 200px;
+	white-space: nowrap;
+}
+
+.select .left {
+    position: absolute;
+	left: 500px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 360px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+.select .right {
+    position: absolute;
+	left: 1040px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 330px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+.button {
+	border-radius: 4px;
+	background-color: #1b856e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 60px;
+	padding: 20px;
+	width:100%; 
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+

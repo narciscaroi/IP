@@ -1,0 +1,24 @@
+
+.select .item-left {
+    position: absolute;
+	left: 400px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 100px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+.select .item-right {
+    position: absolute;
+	left: 1200px; 
+	right: 0; 
+	margin-right: auto; 
+	width: 100px;
+	font-size: 60px;
+	top: 400px;
+	white-space: nowrap;
+}
+
+  
